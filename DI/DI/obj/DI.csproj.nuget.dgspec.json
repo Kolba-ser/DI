@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Program Files (x86)\\Rep\\DI\\Kolba-ser\\DI\\DI\\DI\\DI.csproj": {}
+  },
+  "projects": {
+    "D:\\Program Files (x86)\\Rep\\DI\\Kolba-ser\\DI\\DI\\DI\\DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program Files (x86)\\Rep\\DI\\Kolba-ser\\DI\\DI\\DI\\DI.csproj",
+        "projectName": "DI",
+        "projectPath": "D:\\Program Files (x86)\\Rep\\DI\\Kolba-ser\\DI\\DI\\DI\\DI.csproj",
+        "packagesPath": "C:\\Users\\WeedAdmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Program Files (x86)\\Rep\\DI\\Kolba-ser\\DI\\DI\\DI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WeedAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[0.13.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
